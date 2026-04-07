@@ -1,7 +1,11 @@
 aid: valspar
-url: https://raw.githubusercontent.com/api-evangelist/valspar/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/valspar/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.valspar.com
+description: >-
+  The Valspar Corporation was a global manufacturer of paints and coatings before
+  being acquired by Sherwin-Williams.
