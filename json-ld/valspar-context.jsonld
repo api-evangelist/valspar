@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "valspar": "https://www.valspar.com/",
+
+    "PaintColor": {
+      "@id": "schema:Product",
+      "@type": "@id"
+    },
+    "ColorSwatch": {
+      "@id": "schema:ItemList",
+      "@type": "@id"
+    },
+
+    "id": "@id",
+    "name": "schema:name",
+    "description": "schema:description",
+    "colorCode": {
+      "@id": "schema:productID",
+      "@type": "xsd:string"
+    },
+    "colorName": "schema:name",
+    "hexValue": {
+      "@id": "valspar:hexColor",
+      "@type": "xsd:string",
+      "description": "Hex color code (e.g., #FFFFFF)"
+    },
+    "rgb": {
+      "@id": "valspar:rgbColor",
+      "@type": "@id"
+    },
+    "red": {
+      "@id": "valspar:red",
+      "@type": "xsd:integer"
+    },
+    "green": {
+      "@id": "valspar:green",
+      "@type": "xsd:integer"
+    },
+    "blue": {
+      "@id": "valspar:blue",
+      "@type": "xsd:integer"
+    },
+    "lrv": {
+      "@id": "valspar:lightReflectanceValue",
+      "@type": "xsd:decimal",
+      "description": "Light Reflectance Value (0-100)"
+    },
+    "sheen": "valspar:sheen",
+    "category": "schema:category",
+    "collection": {
+      "@id": "schema:isPartOf",
+      "@type": "@id"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "image": {
+      "@id": "schema:image",
+      "@type": "@id"
+    },
+    "brand": {
+      "@id": "schema:brand",
+      "@type": "schema:Brand"
+    },
+    "manufacturer": {
+      "@id": "schema:manufacturer",
+      "@type": "schema:Organization"
+    }
+  }
+}

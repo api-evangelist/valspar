@@ -1,0 +1,128 @@
+vocabulary:
+  name: Valspar Paint and Coatings Vocabulary
+  description: >-
+    Domain vocabulary for Valspar Corporation, a global paint and coatings manufacturer
+    acquired by Sherwin-Williams in 2017. Covers paint products, color systems, industrial
+    coatings, and digital color tools.
+  version: "2026-05"
+  domain: Paint and Coatings Manufacturing
+  tags:
+    - Paint
+    - Coatings
+    - Color
+    - Manufacturing
+    - Consumer Goods
+
+terms:
+  - term: Paint
+    definition: >-
+      A liquid coating applied to surfaces for protection and decoration. Valspar produces
+      interior and exterior paints for consumer (retail), professional, and industrial markets.
+      Key product lines include Valspar Reserve, Signature Colors, and Cabinet & Furniture paint.
+
+  - term: Coating
+    definition: >-
+      A broader category encompassing paints, stains, varnishes, and specialty finishes.
+      Valspar (now part of Sherwin-Williams) produces industrial coatings for manufacturing,
+      protective coatings for infrastructure, and consumer decorative coatings.
+
+  - term: Color Chip
+    definition: >-
+      A small physical sample of a paint color used to preview how a color will look on a
+      surface. Valspar and Sherwin-Williams distribute color chips through retail stores and
+      direct-to-consumer ordering.
+
+  - term: Color Visualizer
+    definition: >-
+      A digital tool allowing consumers to preview paint colors on photos of their own rooms
+      or stock room images before purchasing. Valspar's Virtual Painter also allows recoloring
+      of furniture and decorative accents.
+    related:
+      - Virtual Painter
+      - ColorSnap
+
+  - term: Virtual Painter
+    definition: >-
+      Valspar's online color visualization tool that lets users paint walls and furniture in
+      virtual room scenes to preview color combinations before committing to a purchase.
+    related:
+      - Color Visualizer
+
+  - term: ColorSnap
+    definition: >-
+      Sherwin-Williams' integrated color matching and selection platform. ColorSnap tools
+      include mobile apps for color scanning and the ColorSnap Visualizer for digital
+      color preview. Available under the Sherwin-Williams brand after Valspar acquisition.
+
+  - term: VOC
+    definition: >-
+      Volatile Organic Compounds — chemical compounds in paints that evaporate into the air
+      during application and drying. Low-VOC and zero-VOC paints are environmentally preferred
+      formulations. Valspar offers low-VOC options in its consumer and professional lines.
+    abbreviation: Volatile Organic Compounds
+
+  - term: Sheen
+    definition: >-
+      The level of gloss in a dried paint finish. Common sheens from matte to high gloss:
+      Flat/Matte, Eggshell, Satin, Semi-Gloss, Gloss/High Gloss. Choice affects both
+      aesthetics and cleanability.
+    values:
+      - Flat
+      - Matte
+      - Eggshell
+      - Satin
+      - Semi-Gloss
+      - Gloss
+      - High Gloss
+
+  - term: Color Matching
+    definition: >-
+      The process of creating or identifying a paint formula to match an existing color sample.
+      Sherwin-Williams/Valspar stores use spectrophotometers to measure and match colors
+      from fabric, tile, or other materials.
+
+  - term: Industrial Coatings
+    definition: >-
+      High-performance coatings for manufacturing, OEM, and maintenance applications.
+      Valspar's industrial coatings business (now part of Sherwin-Williams Performance Coatings
+      Group) serves automotive, packaging, coil, and protective markets.
+
+  - term: Protective Coatings
+    definition: >-
+      Coatings designed to protect substrates from corrosion, chemicals, UV exposure, and
+      physical damage. Used on bridges, tanks, pipelines, marine vessels, and industrial
+      equipment.
+
+  - term: Primer
+    definition: >-
+      A preparatory coating applied before the topcoat paint. Primers improve adhesion,
+      cover stains, and seal porous surfaces. Valspar produces water-based and oil-based
+      primers for interior and exterior use.
+
+  - term: LRV
+    definition: >-
+      Light Reflectance Value — a measurement (0-100) of how much light a paint color
+      reflects. Higher LRV values mean lighter colors. Used by architects and designers
+      for accessibility compliance and lighting design.
+    abbreviation: Light Reflectance Value
+
+  - term: BIMsmith
+    definition: >-
+      A Building Information Modeling (BIM) platform that integrates Sherwin-Williams (and
+      Valspar) colors and coatings products, allowing architects and specifiers to select
+      accurate paint products directly within their BIM design workflow.
+    related:
+      - BIM
+
+  - term: BIM
+    definition: >-
+      Building Information Modeling — a 3D model-based process for creating and managing
+      information about a building project. Sherwin-Williams/Valspar integrates with BIM
+      tools (Revit, BIMsmith) to enable accurate material specification.
+    abbreviation: Building Information Modeling
+
+  - term: Color Formula
+    definition: >-
+      The precise colorant recipe used to tint a base paint to a specific color. Valspar
+      stores use computerized dispensing systems to add colorants according to proprietary
+      formulas to achieve exact color matches.

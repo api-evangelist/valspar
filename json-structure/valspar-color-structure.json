@@ -1,0 +1,16 @@
+{
+  "name": "ValsparColor",
+  "description": "A Valspar paint color from the Valspar color collection",
+  "fields": [
+    { "name": "colorCode", "type": "string", "required": true, "description": "Valspar color code" },
+    { "name": "colorName", "type": "string", "required": true, "description": "Color name" },
+    { "name": "hexValue", "type": "string", "required": false, "description": "Hex color code (#RRGGBB)" },
+    { "name": "rgb.red", "type": "integer", "required": false, "description": "Red channel 0-255" },
+    { "name": "rgb.green", "type": "integer", "required": false, "description": "Green channel 0-255" },
+    { "name": "rgb.blue", "type": "integer", "required": false, "description": "Blue channel 0-255" },
+    { "name": "lrv", "type": "number", "required": false, "description": "Light Reflectance Value 0-100" },
+    { "name": "collection", "type": "string", "required": false, "description": "Product line" },
+    { "name": "category", "type": "string", "required": false, "description": "Color family" },
+    { "name": "url", "type": "uri", "required": false, "description": "Color detail page URL" }
+  ]
+}

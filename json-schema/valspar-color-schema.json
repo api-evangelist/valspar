@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/valspar/main/json-schema/valspar-color-schema.json",
+  "title": "Valspar Paint Color",
+  "description": "A Valspar paint color from the Valspar color collection (now part of Sherwin-Williams)",
+  "type": "object",
+  "required": ["colorCode", "colorName"],
+  "properties": {
+    "colorCode": {
+      "type": "string",
+      "description": "Valspar color code identifier"
+    },
+    "colorName": {
+      "type": "string",
+      "description": "Human-readable color name (e.g., Bleached Linen)"
+    },
+    "hexValue": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$",
+      "description": "Hex color code representation"
+    },
+    "rgb": {
+      "type": "object",
+      "properties": {
+        "red": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255,
+          "description": "Red channel (0-255)"
+        },
+        "green": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255,
+          "description": "Green channel (0-255)"
+        },
+        "blue": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 255,
+          "description": "Blue channel (0-255)"
+        }
+      },
+      "required": ["red", "green", "blue"]
+    },
+    "lrv": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Light Reflectance Value — how much light the color reflects (0=black, 100=white)"
+    },
+    "collection": {
+      "type": "string",
+      "description": "Product line or collection (e.g., Reserve, Signature Colors)"
+    },
+    "category": {
+      "type": "string",
+      "description": "Color family category (e.g., Neutrals, Blues, Greens)"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to color detail page on valspar.com"
+    }
+  }
+}
