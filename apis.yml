@@ -25,6 +25,8 @@ maintainers:
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/valspar
   - name: Website
     url: https://www.valspar.com
     type: Website
