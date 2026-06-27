@@ -45,7 +45,7 @@ common:
     type: Documentation
   - name: BIMsmith Integration
     url: https://www.bimsmith.com
-    type: Integration
+    type: Integrations
   - name: ColorSnap Professional Tools
     url: https://www.swcolorsnap.com
     type: Product
