@@ -26,6 +26,8 @@ maintainers:
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/valspar-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/valspar
   - name: Website
@@ -55,3 +57,5 @@ common:
   - name: Wikipedia
     url: https://en.wikipedia.org/wiki/Valspar
     type: Documentation
+  - url: https://www.valspar.com/en/about-valspar/newsroom
+    type: Blog
