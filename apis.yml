@@ -48,6 +48,11 @@ maintainers:
 specificationVersion: '0.23'
 apis: []
 common:
+  - type: ParentCompany
+    url: https://apis.io/providers/sherwin-williams/
+    name: Sherwin-Williams
+    x-relationship: acquired
+    x-evidence: "The Valspar Corporation was a global manufacturer of paints and coatings founded in 1806 before being acquired by Sherwin-Williams in 2017 for approximately $11."
   - type: DomainSecurity
     url: security/valspar-domain-security.yml
   - type: LinkedIn
