@@ -1,7 +1,9 @@
 ---
 title: Press Releases
 url: https://www.ftc.gov/news-events/news/press-releases?utm_adgroup=Bills_HARP_Dupe_Mobile&utm_term=tbillqtrssm.jpg_1be794_Bills_HARP_Dupe_Mobile_date&vt_session_id=BE3450E055D711E9B2D9BC764E10CDDC&page=441
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Valspar" press release artificial intelligence'
 position: 2
 source: serpapi-google

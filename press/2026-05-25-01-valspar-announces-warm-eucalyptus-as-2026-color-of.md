@@ -1,7 +1,9 @@
 ---
 title: Valspar® Announces "Warm Eucalyptus" as 2026 Color of ...
 url: https://www.prnewswire.com/news-releases/valspar-announces-warm-eucalyptus-as-2026-color-of-the-year-302522300.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Valspar" press release artificial intelligence'
 position: 1
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Sherwin-Williams Completes Acquisition Of Valspar ...
 url: https://www.prnewswire.com/news-releases/sherwin-williams-completes-acquisition-of-valspar-creates-the-global-leader-in-paint-and-coatings-300467108.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Valspar" press release artificial intelligence'
 position: 3
 source: serpapi-google
