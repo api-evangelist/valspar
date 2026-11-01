@@ -64,54 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Valspar Corporation was a global manufacturer of paints and coatings founded in 1806. Valspar was acquired by Sherwin-Williams in 2017 for approximately $11.3 billion. Valspar continues to operate as a brand within Sherwin-Williams, offering consumer interior and exterior paints, industrial coatings, and protective coatings. Digital tools include color visualizers, virtual painters, and color consultation services.
+The Valspar Corporation was a global manufacturer of paints and coatings founded in 1806 before being acquired by Sherwin-Williams in 2017 for approximately $11.3 billion. Valspar continues to operate as a brand within Sherwin-Williams, offering consumer paints, industrial coatings, and protective coatings. Digital tools include color visualizers, virtual painters, and color consultation services. No public developer API is available; color and product integrations are available through Sherwin-Williams' partner programs including BIMsmith and Autodesk Revit.
 
-**Website:** [https://www.valspar.com](https://www.valspar.com)
-**Parent Company:** [https://www.sherwin-williams.com](https://www.sherwin-williams.com)
+**Areas:** Paint · Coatings · Manufacturing · Consumer Goods · Fortune 1000
 
-## Products
+## Valspar on APIs.io
 
-- **Consumer Paints**: Interior and exterior paints sold through Lowe's and other retailers (Reserve, Signature Colors, Cabinet and Furniture paint)
-- **Industrial Coatings**: Coatings for manufacturing, packaging, automotive, and OEM applications
-- **Protective Coatings**: Coatings for infrastructure, marine, and industrial maintenance
+Everything profiled for Valspar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/valspar/](https://apis.io/providers/valspar/)** — or go straight to one of the APIs or properties below.
 
-## Digital Tools
+### Published properties
 
-- **Color Visualizer / Virtual Painter**: [https://www.valspar.com/en/colors/color-tools](https://www.valspar.com/en/colors/color-tools)
-- **Paint Calculator**: Available on valspar.com
-- **Color Consultation**: Color expert service
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Note on APIs
+#### JSON Schema (1)
 
-Valspar does not publish a public developer API. Color and product integrations are available through Sherwin-Williams partner programs:
+The data models the API reads and writes.
 
-- **BIMsmith**: Sherwin-Williams (including Valspar colors) integrates with the BIMsmith BIM platform for architects and specifiers
-- **Autodesk Revit**: Sherwin-Williams Material Library Files with colors and coatings
-- **ColorSnap**: Professional color tools available at swcolorsnap.com
-- **Design Tool Integration**: [https://www.sherwin-williams.com/architects-specifiers-designers/inspiration/styles-and-techniques/SW-ART-STIR-DESIGN-TOOL](https://www.sherwin-williams.com/architects-specifiers-designers/inspiration/styles-and-techniques/SW-ART-STIR-DESIGN-TOOL)
+- [Valspar Paint Color](https://apis.io/schemas/valspar/valspar-color/)
 
-## Artifacts
+#### JSON Structure (1)
 
-### JSON Schema
+Data models expressed in JSON Structure.
 
-- [json-schema/valspar-color-schema.json](json-schema/valspar-color-schema.json) - Valspar paint color data model
+- [Valspar Color Structure](https://apis.io/json-structure/valspar/valspar-color-structure/)
 
-### JSON Structure
+#### JSON-LD (1)
 
-- [json-structure/valspar-color-structure.json](json-structure/valspar-color-structure.json)
+Linked-data contexts for the provider's vocabulary.
 
-### JSON-LD Context
+- [Valspar Context](https://apis.io/jsonld/valspar/valspar-context/)
 
-- [json-ld/valspar-context.jsonld](json-ld/valspar-context.jsonld)
+#### Vocabulary (1)
 
-### Vocabulary
+The provider's domain terms, defined.
 
-- [vocabulary/valspar-vocabulary.yml](vocabulary/valspar-vocabulary.yml)
+- [Valspar Paint and Coatings Vocabulary](https://apis.io/vocabularies/valspar/valspar-vocabulary/)
 
-## Maintainers
+#### Governance rules (1)
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+Spectral rulesets for the provider's contracts.
 
----
-*Profiled: 2026-05*
+- [Valspar — jsonschema rules](https://apis.io/rules/valspar/valspar-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Valspar Domain Security](https://apis.io/security/valspar/valspar-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.valspar.com)
+- [Documentation](https://www.sherwin-williams.com/architects-specifiers-designers/inspiration/styles-and-techniques/SW-ART-STIR-DESIGN-TOOL)
+- [Blog](https://www.valspar.com/en/about-valspar/newsroom)
+
+## API Evangelist rating
+
+**Kin Score 11.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 14.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/valspar/](https://apis.io/providers/valspar/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Valspar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/valspar/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
